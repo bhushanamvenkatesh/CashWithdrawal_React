@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  height: 600px;
+  padding: 20px;
+}
+.user-container {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.name {
+  color: #c7d2fe;
+}
+
+.dp-letter {
+  color: #7c3aed;
+}
+
+.dp-container {
+  height: 50px;
+  width: 50px;
+  background-color: #c7d2fe;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rupees-container {
+  display: flex;
+  flex-direction: column;
+}
+.remaining-rupees {
+  color: white;
+}
+.in-rupees-text {
+  color: #585076;
+}
+.your-balance {
+  color: #585076;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.withdraw {
+  color: white;
+}
+.select-amount {
+  color: #585076;
+}
+.buttons-container {
+  display: flex;
+  padding: 15px;
+  width: 500px;
+  flex-wrap: wrap;
+}
+.button {
+  color: white;
+  background-color: #585076;
+  border-radius: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 200px;
+  border: 2px solid white;
+}
